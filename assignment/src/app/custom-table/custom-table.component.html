@@ -1,0 +1,28 @@
+<p>custom-table works!</p>
+<table>
+<tr>
+    <th>Transaction Type</th>
+    <th>Due Date</th>
+    <th>Days Due</th>
+    <th>Transaction Type</th>
+    <th>Due Date</th>
+    <th>Days Due</th>
+    <th>Transaction Type</th>
+    <th>Due Date</th>
+    <th>Days Due</th>
+</tr>
+<ng-container *ngFor="let elem of myObj">
+    <tr>
+        <td>{{elem.transactionType}}</td>
+        <td>{{elem.duedate}}</td>
+        <td>{{elem.daysdue}}</td>
+        <td>{{elem.transactionType}}</td>
+        <td>{{elem.duedate}}</td>
+        <td>{{elem.daysdue}}</td>
+        <td>{{elem.transactionType}}</td>
+        <td>{{elem.duedate}}</td>
+        <td>{{elem.daysdue}}</td>
+       
+    </tr>
+</ng-container>
+</table>
