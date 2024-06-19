@@ -1,0 +1,15 @@
+.table-container{
+    border-top: 4px solid #0E7ED4;
+    margin: 12px;
+    // height: 40vh;
+}
+.filter-container{
+    background-color: #0E7ED4;
+}
+.next-container{
+    text-align: end;
+}
+table{
+    overflow: scroll;
+    scrollbar-width: none;
+}

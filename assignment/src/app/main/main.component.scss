@@ -1,0 +1,33 @@
+// :host{
+//     background-color: gray;
+// }
+.main-container{
+    margin: 10px;
+    height: 80vh;
+    padding: 10px;
+    border-radius: 6px;;
+    background-color: #fff;
+    overflow: scroll;
+
+}
+// .inner-container{
+//     display: flex;
+//     justify-content: space-between;
+//     gap: 10px;
+//     margin: 10px;
+//     border: 1px solid black;
+//     border-radius: 6px;
+//     height: 95%;
+//     overflow: scroll;
+//     scrollbar-width: none;
+// }
+app-side-container{
+    width: 30%;
+    border-right: 1px solid black;    
+}
+app-main-container{
+    width: 70%;
+    overflow: scroll;
+    scrollbar-width: none;
+   
+}

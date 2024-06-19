@@ -1,0 +1,17 @@
+<div class="remainder-container">
+    <h3>Remainder</h3>
+    <table>
+        <tr>
+            <th>Transaction Type</th>
+            <th>Due Date</th>
+            <th>Days Due</th>
+        </tr>
+        <ng-container *ngFor="let elem of myObj">
+            <tr>
+                <td>{{elem.transactionType}}</td>
+                <td>{{elem.duedate}}</td>
+                <td>{{elem.daysdue}}</td>       
+            </tr>
+        </ng-container>
+        </table>
+</div>

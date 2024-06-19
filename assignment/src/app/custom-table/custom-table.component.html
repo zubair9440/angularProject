@@ -1,0 +1,35 @@
+<div class="table-container">
+<h4>Transactions(My Task)</h4>
+<div class="filter-container">Filter</div>
+<div class="next-container"><a href="#">next</a></div>
+<table>
+<tr style="position: sticky; top:0">
+    <th><span>Transaction Type</span></th>
+    <th>Due Date</th>
+    <th>Days Due</th>
+    <th>Transaction Type</th>
+    <th>Due Date</th>
+    <th>Days Due</th>
+    <th>Transaction Type</th>
+    <th>Due Date</th>
+    <th>Days Due</th>
+</tr>
+
+<ng-container *ngFor="let elem of myObj">
+    <tr >
+        
+        <td>{{elem.transactionType}}</td>
+        <td>{{elem.duedate}}</td>
+        <td>{{elem.daysdue}}</td>
+        <td>{{elem.transactionType}}</td>
+        <td>{{elem.duedate}}</td>
+        <td>{{elem.daysdue}}</td>
+        <td>{{elem.transactionType}}</td>
+        <td>{{elem.duedate}}</td>
+        <td>{{elem.daysdue}}</td>
+       
+    </tr>
+</ng-container>
+
+</table>
+</div>

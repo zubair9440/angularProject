@@ -1,0 +1,86 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    background-color:#E5E6EB
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+*{
+    box-sizing: border-box;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+   padding:4px;
+}
+td{
+    padding: 6px;
+}
+th{
+    border-top: 1px solid black;
+}
+td,th{
+    border-bottom:1px solid black;
+}
+
+
+
+/* You can add global styles to this file, and also import other style files */
+$bg-color:#E7E5EA;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: $bg-color;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5em;
+}
+img{
+    width:100%;
+}
+button{
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px){
+  .container{
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+  }
+    .header-container{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    
+}
+input{
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+    outline: none;
+
+}
+
